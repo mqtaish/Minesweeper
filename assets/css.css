@@ -1,0 +1,57 @@
+
+body{
+    text-align: center;
+    background-color: #ddd;
+}
+
+h1{
+   color: black;
+   margin-top: 25px;
+}
+
+
+#board{
+    width: 400px;       
+    height: 400px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#flag-btn {
+    padding: 10px 40px;
+    font-size: 25px;
+    background-color: skyblue;
+    border-radius: 5px;
+    border: 1px solid maroon;
+    
+    margin-bottom: 20px;
+}
+
+.square-clicked {
+    background-color: darkgray;
+}
+
+.n1{
+    color: blue;
+}
+
+.n2{
+    color: green;
+}
+
+.n3{
+    color: red;
+}
